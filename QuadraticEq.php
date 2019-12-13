@@ -2,7 +2,7 @@
 namespace RzekaMansur;
 use core;
 
-class Square extends LinearEq implements core\EquationInterface
+class QuadraticEq extends LinearEq implements core\EquationInterface
 	{
     protected function discr($a, $b, $c)
 		{
